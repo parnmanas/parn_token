@@ -51,8 +51,8 @@ contract PortionToken is ERC20Interface, SafeMath {
      * Initializes contract with initial supply tokens to the creator of the contract
      */
     constructor() public {
-        name = "Portion Token";
-        symbol = "PRT";
+        name = "Parn Token";
+        symbol = "PARN";
         decimals = 18;
         _totalSupply = 2500000000000000000000000000;
         
